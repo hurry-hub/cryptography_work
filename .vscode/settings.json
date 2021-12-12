@@ -1,0 +1,10 @@
+{
+    "editor.semanticHighlighting.enabled": true,
+    "typescript.locale": "zh-CN",
+    "files.associations": {
+        "stdio.h": "c"
+    },
+    "files.watcherExclude": {
+        "**/target": true
+    }
+}
