@@ -53,7 +53,7 @@ int main(void) {
             if (pre_cipher_bit[j] != cipher_bit[j]) {
                 ctr++;
             }
-            pre_cipher_bit[j] = cipher_bit[j];
+            //pre_cipher_bit[j] = cipher_bit[j];
         }
         fprintf(fp, "%d\n", ctr);
         //DES解密
